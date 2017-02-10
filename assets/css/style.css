@@ -247,3 +247,37 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (max-width: 980px) {
+  .container {
+    max-width: 700px;
+  }
+  .main-section {
+    max-width: 400px;
+  }
+  .auth-image {
+    width: 340px;
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-section {
+    max-width: 100%;
+  }
+  .sidebar {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  header {
+    position: static;
+  }
+  #logo, nav {
+    width: 100%;
+  }
+  nav a{
+    padding: 0 60px;
+  }
+}
